@@ -1,0 +1,102 @@
+.reviews {
+    padding: 80px 0 80px;
+    background-color: #FFFFFF;
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 2.5;
+        color: #000000;
+        margin-bottom: 60px;
+        text-align: left;
+    }
+    &-item {
+        border: solid 2px #DDDDDD;
+        padding: 30px;
+        min-height: 520px;
+        box-shadow: 0 0 10px rgba($color: #B0B0B0, $alpha: 0.5);
+        &__box-title {
+            display: flex;
+            justify-content: start;
+            & > img {
+                max-width: 70px;
+                max-height: 70px;
+                border-radius: 50%;
+                border: 2px solid #005CCE;
+                position: relative;  
+                padding: 10px;
+                margin-right: 52px;          
+            }
+        }
+        &__bottom {
+            padding-top: 100px;
+            background-color: #ffffff;
+            //border-radius: 0 0 12px 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        &__title {
+            font-weight: 500;
+            font-size: 18px;
+            color: #333333;
+            margin: 0 0 15px;
+
+        }
+        &__subtitle {
+            font-weight: 500;
+            font-size: 18px;
+            color: #005CCE;
+            margin: 0 0 46px;
+        }
+        &__descr {
+            padding-top: 16px;
+        }
+    }
+    &__btn {
+        padding: 15px 57px  15px 57px;
+        background-color: #FFFFFF;
+        border: solid 2px #DB2F09;
+        color: #333333;
+        
+    }
+    &__pshare {
+        padding-left: 15px;
+        color: #B0B0B0;
+        //padding-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        align-self: center;
+    }
+    &__ishare {
+        width: 40px;
+        height: 40px;
+        align-self: center;
+    }
+    &__bottom_button {
+        padding-top: 95px;
+        text-align: center;
+    }
+    &__narrows {
+        margin-top: 30px;
+        display: flex;
+        justify-content: right;
+        & > img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    &__btn_bottom1 {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px 50px  20px 50px;
+        border: 2px solid #DB2F09;
+    }
+    &__btn_bottom2 {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px 50px  20px 50px;
+        background-color: #FFFFFF;
+        color: #333333;
+        border: 2px solid #DB2F09;
+    }
+}

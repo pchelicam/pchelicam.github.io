@@ -1,0 +1,119 @@
+.modal {
+    //background-color: #212121;
+    &__container {
+        max-width: 1230px;
+    }
+    &__box {
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        // padding: 65px 48px 65px 48px;
+       // background-color: #5D5DFF;
+       padding-top: 80px;
+       padding-bottom: 80px;
+        z-index: 2;
+    }
+    &__column1 {
+        align-self: flex-start;
+    }
+    &__column2 {
+        align-self: flex-end;
+        max-width: 600px;
+    }
+    
+    &__background-image {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: 0;
+   }
+   &__title {
+        font-size: 48px;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-bottom: 60px;
+        text-align: left;
+   }
+    &__subtitle{
+        margin: 0;
+        margin-bottom: 33px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.5;
+        color: #FFFFFF;
+    }
+    &__subcolumn{
+        display: flex;
+        justify-content: start;
+        gap: 19px;
+    }
+    &__subcolumn-img {
+        width: 30px;
+        height: 30px;
+    }
+    &__tel {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.5;
+        color: #FFFFFF;
+    }
+    &__column2 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    // &__form {
+    //     display: flex;
+    //     justify-content: center;
+    //     //z-index: 2;
+    // }
+    &__desc1 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.1;
+        color: #FFFFFF;
+        max-width: 395px;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    &__subform {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__input1 {
+        background-color: #FFFFFF;
+        margin-right: 30px;
+        color: #B0B0B0;
+        max-width: 200px;
+        //width: 320px;
+        height: 48px;
+        margin-bottom: 32px;
+    }
+    &__input2 {
+        background-color: #FFFFFF;
+        color: #B0B0B0;
+        max-width: 200px;
+        //width: 320px;
+        height: 48px;
+        margin-bottom: 32px;
+
+    }
+    &__submit {
+        padding: 20px 65px 20px 65px;
+        background-color: #DB2F09;
+        color: #FFFFFF;
+        max-width: 200px;
+        max-height: 60px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.1;
+        margin-right: 30px;
+    }
+    &__desc2 {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 0.9;
+        color: #B0B0B0;
+        max-width: 200px;
+    }
+}
