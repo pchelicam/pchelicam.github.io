@@ -32,7 +32,49 @@
         <section class="banner">
             <img class="banner__background-image" src="./images/background_truck.png" alt=""/> 
             <div class="container banner__container">
-                <div class="banner__box">
+                <div class="banner__column">
+                    <h1 class="banner__title">You can be sure your cargo <br> will arrive on time</h1>
+                    <p class="banner__desc">RusWay acts as a guarantor of reliability and <br> professionalism!</p>
+                    <a href="" class="banner__btn_order btn">Order a call</a>
+                </div>
+                <div class="banner__upper_form">
+                    <p class="banner__p-1">From?</p>
+                    <p class="banner__p-2">To?</p>
+                    <p class="banner__p-3">Weight</p>
+                </div>
+                <div class="banner__form input-form">
+                    <input class="banner__input-1" type="text" placeholder="Moscow">
+                    <input class="banner__reverse" type="image" src="./images/calculate_form_2.png">
+                    <input class="banner__input-2" type="text"  placeholder="Saratov">
+                    <input class="banner__input-3" type="text"  placeholder="0">
+                    <a href="" class="banner__button-confirm btn">Calculate</a>
+                </div>
+                <!-- <div class="banner__calculate-form">
+                    <div class="banner__calculate-column">
+                        <p class="banner__column-desc p-desc">From?</p>
+                        <input type="text" class="banner__input-from-1" placeholder="Moscow" required/>
+                    </div>
+                    <div class="banner__calculate-column">
+                        <p class="banner__column-desc p-desc" style="opacity: 0.0;">d</p>
+                        <div class="banner__reverse">
+                            <a href=""><img src="./images/calculate_form_2.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="banner__calculate-column">                            
+                        <p class="banner__column-desc p-desc">To?</p>
+                        <input type="text" class="banner__input-from-2" placeholder="Saratov" required/>
+                    </div>
+                    <div class="banner__calculate-column">
+                        <p class="banner__column-desc p-desc">Weight</p>
+
+                        <input type="text" class="banner__input-from-3" placeholder="0" required/>
+                    </div>
+                    <div class="banner__calculate-column">
+                        <p class="banner__column-desc p-desc" style="opacity: 0.0;">d</p>
+                        <a href="" class="banner__calculate-column btn" style="padding: 24px 47px 24px 47px; margin-left: 20px;">Calculate</a>
+                    </div>
+                </div> -->
+                <!-- <div class="banner__box">
                     <h1 class="banner__title h2-title">You can be sure your cargo <br> will arrive on time</h1>
                     <p class="banner__desc p-desc">RusWay acts as a guarantor of reliability and professionalism!</p>
                     <div class="banner__btns btns">
@@ -63,7 +105,7 @@
                             <a href="" class="banner__calculate-column btn" style="padding: 24px 47px 24px 47px; margin-left: 20px;">Calculate</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
             <section class="features">
@@ -258,9 +300,9 @@
                                         </div>
                                         <div class="portfolio-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
                                         <div class="portfolio-item__bottom">
-                                            <a href="" class="portfolio__btn btn">Read</a>
-                                            <div class="portfolio__pshare">Share</div>
-                                            <img class="portfolio__ishare" src="./images/portfolio-share.svg" alt="">
+                                            <a href="" class="portfolio-item__btn btn">Read</a>
+                                            <a href="" class="portfolio-item__pshare">Share</a>
+                                            <input class="portfolio-item__ishare" type="image" src="./images/portfolio-share.svg">
                                         </div>
                                     </div>
                                     <div class="portfolio__item portfolio-item swiper-slide">
@@ -271,9 +313,9 @@
                                         </div>
                                         <div class="portfolio-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
                                         <div class="portfolio-item__bottom">
-                                            <a href="" class="portfolio__btn btn">Read</a>
-                                            <div class="portfolio__pshare">Share</div>
-                                            <img class="portfolio__ishare" src="./images/portfolio-share.svg" alt="">
+                                            <a href="" class="portfolio-item__btn btn">Read</a>
+                                            <a href="" class="portfolio-item__pshare">Share</a>
+                                            <input class="portfolio-item__ishare" type="image" src="./images/portfolio-share.svg">
                                         </div>
                                     </div>
                                     <div class="portfolio__item portfolio-item swiper-slide">
@@ -284,9 +326,9 @@
                                         </div>
                                         <div class="portfolio-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
                                         <div class="portfolio-item__bottom">
-                                            <a href="" class="portfolio__btn btn">Read</a>
-                                            <div class="portfolio__pshare">Share</div>
-                                            <img class="portfolio__ishare" src="./images/portfolio-share.svg" alt="">
+                                            <a href="" class="portfolio-item__btn btn">Read</a>
+                                            <a href="" class="portfolio-item__pshare">Share</a>
+                                            <input class="portfolio-item__ishare" type="image" src="./images/portfolio-share.svg">
                                         </div>
                                     </div>
                                 </div>
@@ -375,9 +417,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="reviews__narrows">
-                            <img src="./images/reviews-5.svg" style="margin-right: 60px;" alt="">
-                            <img src="./images/reviews-6.svg" alt="">
+                        <div class="reviews__arrows">
+                            <!-- <img src="./images/reviews-5.svg" style="margin-right: 60px;" alt="">
+                            <img src="./images/reviews-6.svg" alt=""> -->
+                            <input class="reviews__arrow_1" type="image" src="./images/reviews-5.svg" style="margin-right: 60px;">
+                            <input class="reviews__arrow_2" type="image" src="./images/reviews-6.svg">
                         </div>
                         <div class="reviews__bottom_button">
                             <a href="" class="reviews__btn_bottom1 btn">All reviews</a>

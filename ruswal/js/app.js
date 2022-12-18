@@ -34,6 +34,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
         slidesPerView: 3,
         spaceBetween: 20,
         loop: true,
+        navigation: {
+          nextEl: '.reviews__arrow_1',
+          prevEl: '.reviews__arrow_2',
+        },
         // Responsive breakpoints
         breakpoints: {
           // when window width is >= 320px
