@@ -287,6 +287,7 @@ img {
   padding: 19px 48px;
   margin: 8px 0;
   box-sizing: border-box;
+  color: #000000;
 }
 .banner__reverse {
   width: 5%;
@@ -585,7 +586,7 @@ img {
 .modal__input1 {
   background-color: #FFFFFF;
   margin-right: 30px;
-  color: #B0B0B0;
+  color: #000000;
   max-width: 200px;
   height: 48px;
   margin-bottom: 32px;
@@ -593,7 +594,7 @@ img {
 }
 .modal__input2 {
   background-color: #FFFFFF;
-  color: #B0B0B0;
+  color: #000000;
   max-width: 200px;
   height: 48px;
   margin-bottom: 32px;
